@@ -1,0 +1,61 @@
+.splashpage {
+}
+
+.datathon-logo {
+    margin-top: 8%;
+}
+
+.date {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color: #748DA5;
+    text-align: center;
+}
+
+.intro-link {
+    text-align: center;
+    border: 1px solid #2B354C;
+    padding: 0px;
+    color: #748DA5;
+    transition: border-color 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+.intro-link:hover {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+.sign-up-link-text {
+    font-family: 'Montserrat', sans-serif;
+    padding: 12px;
+    margin: 0px;
+    font-weight: normal;
+    font-size: 1.9em;
+}
+
+.sign-up-link-alt {
+    margin-top: 0;
+    font-size: 0.8em;
+}
+
+.sponsor-link-text {
+    font-family: 'Montserrat', sans-serif;
+    padding: 12px;
+    margin: 0px;
+    font-weight: normal;
+    font-size: 1.9em;
+}
+
+@media screen and (max-width: 500px){
+    .datathon-logo {
+        margin-top: 50%;
+    }
+
+    .intro-link {
+        opacity: 0.7;
+    }
+
+    .intro-link-text {
+        font-size: 1.2em;
+    }
+}

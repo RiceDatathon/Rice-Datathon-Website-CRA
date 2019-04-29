@@ -1,0 +1,35 @@
+.navbar-container {
+    position: fixed;
+    margin-top: -6%;
+    z-index: 999;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar-container {
+        margin-top: -40%;
+    }
+}
+
+.navbar-toggle {
+    margin-left: 1%;
+}
+
+.navbar-dropdown {
+    overflow: hidden;
+    margin-left: 25%;
+    width: 120px;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.navbar-link {
+    text-align: left;
+    color: #748DA5;
+    font-size: 1.6em;
+    font-weight: normal;
+    margin-top: 8%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-link:hover {
+    transform: translateX(15px);
+}
