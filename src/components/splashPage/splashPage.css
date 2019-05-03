@@ -1,6 +1,12 @@
 .splashpage {
 }
 
+@media screen and (max-width: 600px){
+    .sponsor-button {
+        margin-bottom: 5%;
+    }
+}
+
 .datathon-logo {
     margin-top: 8%;
 }

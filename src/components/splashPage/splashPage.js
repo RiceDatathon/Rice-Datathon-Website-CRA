@@ -5,7 +5,7 @@ import datathonLogo from '../../static/datathon-logo.png'
 
 import sponsorshipPacket from '../../static/SponsorshipPacket.pdf';
 
-const screenHeight = window.outerHeight - 100
+const screenHeight = window.outerHeight - 50
 
 const SplashPage = () => (
     <div className='splashpage' style={{ height: screenHeight }}>
@@ -19,7 +19,7 @@ const SplashPage = () => (
                 <p className='sign-up-link-alt'>Registration will open fall 2019</p>
             </div>
         </Box>
-        <Box width={[0.7, 0.27]} ml='auto' mr='auto' mt={20}>
+        <Box width={[0.7, 0.27]} ml='auto' mr='auto' mt={20} className='sponsor-button'>
             <a href={sponsorshipPacket} style={{textDecoration: 'none'}} target='_blank'>
                 <div className='intro-link'>
                     <h4 className='sponsor-link-text'>Become a Sponsor</h4>

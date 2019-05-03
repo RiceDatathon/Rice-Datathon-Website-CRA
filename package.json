@@ -2,7 +2,7 @@
   "name": "datathon-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://RiceDatathon.github.io",
+  "homepage": "https://datathon.rice.edu",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -17,7 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
