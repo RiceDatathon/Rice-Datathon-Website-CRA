@@ -50,4 +50,4 @@ To update the source code following a deployment run the following commands:
 
 This will commit the source code to the master branch. Remember to always pull before you push to this branch. 
 
-Additionally after every deployment of the website, go to the settings menu of this repository and scroll down the section labeled `gh-pages`. Make sure that under custom domain it says `datathon.rice.edu`, that the "enforce https" box is checked, and that at the top it says that the gh-pages is pulling from the gh-pages branch.
+  Additionally after every deployment of the website, go to the settings menu of this repository and scroll down the section labeled `gh-pages`. Make sure that under custom domain it says `datathon.rice.edu`, that the `Enforce HTTPS` box is checked, and that at the top it says `Your GitHub Pages site is currently being built from the gh-pages branch`. If menus/options are different change them and make sure that the changes are saved.
