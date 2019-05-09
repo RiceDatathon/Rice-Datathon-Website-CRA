@@ -42,7 +42,7 @@ Implicitly calls `npm run build` and then stages and commits the neccessary buil
 
 This website is hosted on github pages and pulls from the gh-pages branch of the repository. The source code for the website is in the master branch. To make changes/deploy the website running the command `npm run deploy` will create a production build of the website and push it to the gh-pages branch, after a couple of minutes these changes should be reflected in the website itself. 
 
-To deploy the website run:
+To push changes to the website run:
 
 ### `npm run deploy`
 
