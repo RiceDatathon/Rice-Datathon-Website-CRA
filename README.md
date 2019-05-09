@@ -1,4 +1,4 @@
-### This website is hosted at: `datathon.rice.edu`
+### This website is hosted at: `[datathon.rice.edu](https://datathon.rice.edu/)`
 
 ## Initial Steps
 
