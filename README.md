@@ -1,3 +1,5 @@
+### This website is hosted at: `datathon.rice.edu`
+
 ## Initial Steps
 
 Navigate into the folder you want the repository cloned into.
