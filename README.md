@@ -7,6 +7,9 @@ Navigate into the folder you want the repository cloned into.
 Run:
 ### `git clone https://https://github.com/RiceDatathon/Rice-Datathon-Website.git`
 
+Then run the following command to install the dependencies:
+### `npm install`
+
 Then to run the website in development mode locally on your computer run:
 
 ### `npm run start` 
