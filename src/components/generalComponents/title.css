@@ -1,15 +1,12 @@
 .title {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
 }
 
 .title-style {
-    color: #A7BBCE;
-    background-color: #2B354C;
-    border: solid #A7BBCE;
-    border-color: #A7BBCE rgb(94, 116, 136) rgb(94, 116, 136) #A7BBCE;
-    border-width: 6px 3px 3px 6px;
+    color: #2B354C;
+    background-color: #A7BBCE;
+    border-radius: 20px;
     padding: 10px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;

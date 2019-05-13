@@ -26,6 +26,7 @@ const SplashPage = () => (
                 </div>
             </a>
         </Box>
+        <div style={{height: '100px'}} />
     </div>
 )
 
