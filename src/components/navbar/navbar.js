@@ -1,6 +1,8 @@
 import React from 'react';
 import * as Scroll from 'react-scroll';
 import './navbar.css';
+import riceLogo from '../../static/ricelogo.png';
+import { Box, Image } from 'rebass';
 
 const links = [
     {
@@ -64,6 +66,9 @@ class NavbarNarrow extends React.Component {
 
 const NavbarWide = () => (
     <div className='navbar-bar'>
+    {/* <Box className='rice'>
+        <Image src={riceLogo} alt=''/>
+    </Box> */}
         <div className='navbar-bar-container'>
             {
                 links.map(({ name, to }) => (

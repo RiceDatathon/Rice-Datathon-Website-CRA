@@ -36,7 +36,7 @@
     width: 100%;
     z-index: 999;
     background-color: #748DA5;
-    opacity: 0.8;
+    /* opacity: 0.8; */
 }
 
 .navbar-bar-container {
@@ -72,4 +72,10 @@
     .navbar-narrow {
         display: none;
     }
+}
+
+.rice {
+    position: fixed;
+    width: 200px;
+    margin-top: -2%;
 }

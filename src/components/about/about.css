@@ -11,7 +11,7 @@
 .about-content-card {
     background-color: #A7BBCE;
     border-radius: 20px;
-    opacity: 0.9;
+    /* opacity: 0.9; */
 }
 
 .about-image-card {
@@ -19,7 +19,7 @@
     padding: 20px;
     background-color: #2B354C;
     border-radius: 20px;
-    opacity: 0.9;
+    /* opacity: 0.9; */
 }
 
 .about-content-text {

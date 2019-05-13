@@ -18,7 +18,7 @@
     transition: 0.3s ease-in-out;
     color: #2B354C;
     background-color: #A7BBCE;
-    opacity: 0.9;
+    /* opacity: 0.9; */
     border-radius: 10px;
 }
 
