@@ -21,7 +21,7 @@ const links = [
     }
 ]
 
-class Navbar extends React.Component {
+class NavbarNarrow extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -40,7 +40,7 @@ class Navbar extends React.Component {
                 <div className='navbar-toggle' onClick={this.onClick}>
                     {
                         this.state.open ? (
-                            <img src="https://icon.now.sh/x/748DA5/40" alt='Close'/>
+                            <img src="https://icon.now.sh/x/748DA5/40" alt='Close' />
                         ) : (
                                 <img src="https://icon.now.sh/burger/748DA5/40" alt='Menu' />
                             )
@@ -50,7 +50,7 @@ class Navbar extends React.Component {
                     {
                         links.map(({ name, to }) => (
                             <Scroll.Link to={to} smooth={true} duration={400} key={`${name}`}>
-                                <div className='navbar-link'>
+                                <div className='navbar-link-narrow'>
                                     {name}
                                 </div>
                             </Scroll.Link>
@@ -61,5 +61,34 @@ class Navbar extends React.Component {
         )
     }
 }
+
+const NavbarWide = () => (
+    <div className='navbar-bar'>
+        <div className='navbar-bar-container'>
+            {
+                links.map(({ name, to }) => (
+                    <Scroll.Link to={to} smooth={true} duration={400} key={`${name}`}>
+                        <div className='navbar-link-wide'>
+                            {name}
+                        </div>
+                    </Scroll.Link>
+                ))
+            }
+        </div>
+    </div>
+)
+
+const Navbar = () => (
+    <div>
+        <div className='navbar-wide'>
+            <NavbarWide />
+        </div>
+        <div className='navbar-narrow'>
+            <NavbarNarrow />
+        </div>
+    </div>
+)
+
+
 
 export default Navbar;

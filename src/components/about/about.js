@@ -8,7 +8,7 @@ import graph from '../../static/graph.svg'
 
 const About = () => (
     <div className='about-page'>
-        <Title title="About Rice Datathon" width={[0.7, 0.42]} theme={true} />
+        <Title title="About Rice Datathon" width={[0.7, 0.5]} theme={true} />
         <Box className='about-content' width={[1, 0.9, 0.8, 0.7]}>
             <Flex flexDirection='row' flexWrap='wrap' justifyContent='center'>
                 <Box width={350} className='about-content-card'>
@@ -19,13 +19,13 @@ const About = () => (
                         Students have 24 hours to work in teams, or individually, to design and implement data science related projects and win great prizes.
                     </p>
                 </Box>
-                <Box width={300} className='about-content-card'>
+                <Box width={300} className='about-image-card'>
                     <Image src={network} />
                 </Box>
-                <Box width={350} className='about-content-card'>
+                <Box width={300} className='about-image-card'>
                     <Image src={graph} />
                 </Box>
-                <Box width={325} className='about-content-card'>
+                <Box width={350} className='about-content-card'>
                     <p className='about-content-text'>
                         The Rice Datathon is a great opportunity to learn more about data science, enjoy free food and snacks, win fantastic prizes, and impress recruiters!
                     </p>

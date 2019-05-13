@@ -1,6 +1,6 @@
 .about-page {
     padding: 1% 0 5% 0;
-    background-color: #A7BBCE;
+    /* background-color: #A7BBCE; */
 }
 
 .about-content {
@@ -10,11 +10,21 @@
 }
 
 .about-content-card {
-    margin-left: 3%;
-    margin-right: 3%;
+    background-color: #A7BBCE;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+
+.about-image-card {
+    margin: 3%;
+    padding: 20px;
+    background-color: #2B354C;
+    border-radius: 20px;
+    opacity: 0.9;
 }
 
 .about-content-text {
+    padding: 20px;
     text-align: left;
     color: #2B354C;
     font-size: 1.2em;
