@@ -27,7 +27,7 @@
 }
 
 .dropdown-question {
-    font-size: 2em;
+    font-size: 1.4em;
     transition: transform 0.2s ease-in-out;
     padding: 10px;
     border-radius: 10px;
@@ -37,5 +37,5 @@
     margin-top: 2%;
     overflow: hidden;
     transition: max-height 0.4s ease-in-out;
-    font-size: 1.7em;
+    font-size: 1.1em;
 }

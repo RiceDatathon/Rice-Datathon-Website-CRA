@@ -60,7 +60,7 @@ const FAQs = () => {
             <Flex className='questions' flexDirection='row' flexWrap='wrap' justifyContent='center'>
                 {
                     columns.map(column => (
-                        <Box width={[1, 0.3]} className='question-column' key={`C+${columns.indexOf(column)}`}>
+                        <Box width={[1, 0.22]} className='question-column' key={`C+${columns.indexOf(column)}`}>
                             <Flex flexDirection='column'>
                                 {column}
                             </Flex>
