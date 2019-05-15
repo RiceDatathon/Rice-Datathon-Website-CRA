@@ -4,8 +4,8 @@ import './title.css';
 
 const Title = props => (
     <Box className='title' width={props.width}>
-        {/* <div className={props.theme ? ('title-theme') : ('title-alternate')}> */}
-        <div className='title-style'>
+        <div className={props.theme ? ('title-style1') : ('title-style2')}>
+        {/* <div className='title-style2'> */}
             {props.title}
         </div>
     </Box>

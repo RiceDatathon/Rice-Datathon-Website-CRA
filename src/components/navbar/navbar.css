@@ -35,7 +35,7 @@
     position: fixed;
     width: 100%;
     z-index: 999;
-    background-color: #748DA5;
+    background-color: #2B354C;
     /* opacity: 0.8; */
 }
 
@@ -48,19 +48,16 @@
 
 .navbar-link-wide {
     text-align: center;
-    padding: 10px 20px;
-    font-size: 2em;
+    padding: 15px 20px 10px;
+    font-size: 1.2em;
     font-weight: normal;
-    color: #2B354C;
-    border: solid #748DA5;
-    border-width: 0 0 3px 0;
+    color: #748DA5;
     transition: 0.2s ease-in-out;
 }
 
  .navbar-link-wide:hover {
     color: #ffffff;
-    border-color: #ffffff;
- }
+}
 
 @media screen and (max-width: 550px) {
     .navbar-wide {

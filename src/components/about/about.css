@@ -10,20 +10,17 @@
 
 .about-content-card {
     background-color: #A7BBCE;
-    border-radius: 20px;
-    /* opacity: 0.9; */
+    margin: 2%;
 }
 
 .about-image-card {
-    margin: 3%;
+    margin: 2%;
     padding: 20px;
     background-color: #2B354C;
-    border-radius: 20px;
-    /* opacity: 0.9; */
 }
 
 .about-content-text {
-    padding: 20px;
+    padding: 10px 20px;
     text-align: left;
     color: #2B354C;
     font-size: 1.2em;

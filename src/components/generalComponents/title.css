@@ -3,15 +3,30 @@
     margin-right: auto;
 }
 
-.title-style {
+.title-style1 {
     color: #2B354C;
     background-color: #A7BBCE;
-    border-radius: 20px;
+    /* border-radius: 20px; */
+    border: solid #2B354C;
+    border-width: 6px 0;
     padding: 10px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 3em;
 }
+
+.title-style2 {
+    color: #A7BBCE;
+    background-color: #2B354C;
+    /* border-radius: 20px; */
+    border: solid #A7BBCE;
+    border-width: 6px 0;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+}
+
 
 /* .title-theme {
     color: #2B354C;
