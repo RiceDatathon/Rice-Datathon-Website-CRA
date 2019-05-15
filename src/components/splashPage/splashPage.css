@@ -21,14 +21,14 @@
 
 .intro-link {
     text-align: center;
-    border: 1px solid #2B354C;
+    /* border: 1px solid #2B354C; */
     padding: 0px;
     color: #748DA5;
     transition: border-color 0.4s ease-in-out, color 0.4s ease-in-out;
 }
 
 .intro-link:hover {
-    border-color: #ffffff;
+    /* border-color: #ffffff; */
     color: #ffffff;
 }
 
