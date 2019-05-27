@@ -10,3 +10,23 @@
     color: #A7BBCE;
     font-weight: normal;
 }
+
+/* unvisited link */
+a:link {
+    color: rgb(67, 130, 224);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(67, 130, 224);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
