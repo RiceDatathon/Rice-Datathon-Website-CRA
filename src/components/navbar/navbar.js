@@ -1,8 +1,6 @@
 import React from 'react';
 import * as Scroll from 'react-scroll';
 import './navbar.css';
-import riceLogo from '../../static/ricelogo.png';
-import { Box, Image } from 'rebass';
 
 const links = [
     {
@@ -23,77 +21,36 @@ const links = [
     }
 ]
 
-class NavbarNarrow extends React.Component {
+class Navbar extends React.Component {
     constructor(props) {
-        super(props)
+        super(props);
         this.state = {
             open: false
         }
-        this.onClick = this.onClick.bind(this);
+        this.toggleNavbar = this.toggleNavbar.bind(this);
     }
 
-    onClick() {
-        this.setState({ open: !this.state.open })
+    toggleNavbar() {
+        this.setState({ open: !this.state.open });
     }
+
     render() {
-        let height = this.state.open ? (400) : (0);
         return (
-            <div className='navbar-container'>
-                <div className='navbar-toggle' onClick={this.onClick}>
-                    {
-                        this.state.open ? (
-                            <img src="https://icon.now.sh/x/748DA5/40" alt='Close' />
-                        ) : (
-                                <img src="https://icon.now.sh/burger/748DA5/40" alt='Menu' />
-                            )
-                    }
-                </div>
-                <div className='navbar-dropdown' style={{ maxHeight: height }}>
-                    {
-                        links.map(({ name, to }) => (
-                            <Scroll.Link to={to} smooth={true} duration={400} key={`${name}`}>
-                                <div className='navbar-link-narrow'>
-                                    {name}
-                                </div>
+            <div className={this.state.open ? ('navbar-visible') : ('navbar-hidden')}>
+                <h1 className={this.state.open ? ('navbar-toggle-open') : ('navbar-toggle-closed')} onClick={this.toggleNavbar}>+</h1>
+                {
+                    links.map(({ name, to }) => (
+                        <div className='navbar-item' key={name} onClick={this.toggleNavbar}>
+                            <Scroll.Link to={to} smooth={true} duration={400}>
+                                <p>{name}</p>
                             </Scroll.Link>
-                        ))
-                    }
-                </div>
+                        </div>
+                    ))
+                }
             </div>
         )
     }
 }
-
-const NavbarWide = () => (
-    <div className='navbar-bar'>
-    {/* <Box className='rice'>
-        <Image src={riceLogo} alt=''/>
-    </Box> */}
-        <div className='navbar-bar-container'>
-            {
-                links.map(({ name, to }) => (
-                    <Scroll.Link to={to} smooth={true} duration={400} key={`${name}`}>
-                        <div className='navbar-link-wide'>
-                            {name}
-                        </div>
-                    </Scroll.Link>
-                ))
-            }
-        </div>
-    </div>
-)
-
-const Navbar = () => (
-    <div>
-        <div className='navbar-wide'>
-            <NavbarWide />
-        </div>
-        <div className='navbar-narrow'>
-            <NavbarNarrow />
-        </div>
-    </div>
-)
-
 
 
 export default Navbar;

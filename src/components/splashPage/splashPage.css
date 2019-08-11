@@ -1,17 +1,7 @@
-/* @media screen and (max-width: 600px){
-    .sponsor-button {
-        margin-bottom: 5%;
-    }
-} */
-
 .splashpage {
-    margin-bottom: 8%;
+    height: 100vh;
+    overflow: hidden;
 }
-
-.datathon-logo {
-    padding-top: 8%;
-}
-
 .date {
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
@@ -21,14 +11,12 @@
 
 .intro-link {
     text-align: center;
-    /* border: 1px solid #2B354C; */
     padding: 0px;
     color: #748DA5;
     transition: border-color 0.4s ease-in-out, color 0.4s ease-in-out;
 }
 
 .intro-link:hover {
-    /* border-color: #ffffff; */
     color: #ffffff;
 }
 
@@ -53,20 +41,42 @@
     font-size: 1.9em;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (min-width: 651px) {
     .datathon-logo {
-        margin-top: 40%;
+        position: fixed;
+        right: 0;
+        top: 0;
+        margin: 10px 30px 10px 0;
+        z-index: 999;
     }
+    .date {
+        margin-top: 1%;
+    }
+    .intro-logo {
+        margin-top: 12%;
+    }
+}
 
+@media screen and (max-width: 650px) {
     .intro-link {
         opacity: 0.7;
     }
-
     .intro-link-text {
         font-size: 1.2em;
     }
-
     .splashpage {
         margin-bottom: 10%;
+    }
+    .datathon-logo {
+        top: 0;
+        position: fixed;
+        margin: 10px;
+        z-index: 999;
+    }
+    .intro-logo {
+        display: none;
+    }
+    .date {
+        margin-top: 40%;
     }
 }
